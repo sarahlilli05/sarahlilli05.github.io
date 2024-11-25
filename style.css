@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+nav{
+    position: fixed;
+    font-size: 20px;
+    color: red;
+  }  
+
+  nav ol li a:hover {
+    color: yellow
+  }
+
+  .header {background-color: rgb(255, 0, 0);}
+
+  div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 15px;
+    display:inline-block;
+  }
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #000000;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #000000; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: #666;}
+.logo {
+    color: red;
+}
+
+.title {
+    color: red; font-family: "Barriecito"; font-size: 70px; text-align: center;
+}
+  
+.projekt1 {
+     font-family: Arial; font-size:40px; text-align: center;
+}
+
+.paragraph1 {
+    font-size: 30px; font-family: arial; text-align: center;
+}
+
+.bilder {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.bilder2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.ani {
+   width: 40px; margin: auto;
+}
+
+.link1 {
+    display: block;
+    color: red; text-align: center;
+    
+}
+
+.headerproject {
+    font-family: "Barriecito"; font-size: 70px;
+}
+
+.projekt2 {
+    font-family: Arial; font-size:40px; text-align: center;
+}
+
+.paragraph2 {
+    font-size: 30px; text-align: center;
+}
+
+.paragraph3 {
+    font-size: 30px; text-align: center;
+}
